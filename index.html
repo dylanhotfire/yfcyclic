@@ -1,0 +1,278 @@
+<!--yfcyclic main landing page-->
+<!--v1.0-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="title" content="yfCyclic Finance">
+    <meta name="description" content="Providing balanced DeFi for everyone.">
+    <link rel="shortcut icon" href="images/yfCyclicEmblem.png">
+    <title>yfCyclic</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700" rel="stylesheet">
+    <!--custom stylesheets -->
+    <link rel="stylesheet" href="css/main.css?1512455877">
+    <link rel="stylesheet" href="css/main_ie.css?1512456911">
+</head>
+
+
+<body>
+<div class="main-outer text-center">
+    <!-- Homepage Banner -->
+    <div class="introduction-banner">
+	   <!--To be used when vaults go live and easier navigation is required-->
+       <!-- <div class="header sticky-header">
+            <div class="align-center header-inner">
+                <div class="container clearfix">
+                    <div id="nav-icon"></div>
+                    <div class="navigation">
+                        <ul>
+							<li>  
+								<div class="logo">
+									<a href="(vault_link_here)"><img src="images/yfcyclicvault.png" alt=""></a>
+								</div>	
+                            </li>
+							<li>  
+								<div class="logo">
+									<a href="https://twitter.com/YfCyclic"><img src="images/twitter.png" alt=""></a>
+								</div>	
+                            </li>
+							<li>  
+								<div class="logo">
+									<a href="https://medium.com/yfcyclic"><img src="images/medium.png" alt=""></a>
+								</div>	
+                            </li>
+							<li>  
+								<div class="logo">
+									<a href="https://github.com/yfcyclic/yfcyclic"><img src="images/github.png" alt=""></a>
+								</div>	
+                            </li>
+							<li>
+								<div class="logo">
+									<a href="https://discord.gg/NQ9xhAG"><img src="images/discord.png" alt=""></a>
+								</div>	
+                            </li>
+							<li>
+								<div class="logo">
+									<a href="https://t.me/yfcyclic"><img src="images/telegram.png" alt=""></a>
+								</div>	
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div> -->
+        <div class="middle-content">
+            <div class="container">
+                <div class="main-logo-wrapper">
+                    <img src="images/yfCyclicName.png"  alt="" class="visible-xs">
+                    <img src="images/yfCyclicName.png"  alt="" class="hidden-xs">
+                </div>
+                <div class="message"> A weekly cycling profit structure for decentralized finance. </div>
+				<!--call to action for token specifics and vaults-->
+                <div class="cta-group">
+                    <a href="https://bounce.finance/" class="cta" target="_blank">Bounce Presale</a>
+                    <a href="https://etherscan.io/address/0x69f08bd1929ef62ecbe947d6bf76a7b7cdba55e8" class="cta" target="_blank">Smart Contract</a>	
+					<a href="vaults.html" class="cta" target="_blank">Vaults</a>
+				</div>
+				<!--call to action for social medias-->
+				<div class="cta-group">
+					<a href="https://github.com/yfcyclic/yfcyclic" class="cta-github" target="_blank"><img src="images/githubCTA.png" alt="" width="43" style="vertical-align:top"></a>
+					<a href="https://twitter.com/YfCyclic" class="cta-twitter" target="_blank"><img src="images/twitterCTA.png" alt="" width="43" style="vertical-align:top"></a>
+					<a href="https://discord.gg/NQ9xhAG" class="cta-discord" target="_blank"><img src="images/discordCTA.png" alt="" width="49" style="vertical-align:top"></a>	
+					<a href="https://t.me/yfcyclic" class="cta-telegram" target="_blank"><img src="images/telegramCTA.png" alt="" width="43" style="vertical-align:top"></a>
+					<a href="https://medium.com/yfcyclic" class="cta-medium" target="_blank"><img src="images/mediumCTA.png" alt="" width="43" style="vertical-align:top"></a>
+				</div>
+				<!--canvas for background-->
+				<canvas id="c"></canvas>
+            </div>
+        </div>
+    </div>
+
+	<!--about the protocol-->
+    <div class="features-main">
+        <div class="container">
+            <div class="features-description visible-xs">
+                <h2>How does yfCyclic work?</h2>
+            </div>
+            <div class="features-box-main">
+                <div class="flex-parent clearfix">
+					<!--desktop mode-->
+                    <div class="visible-xs">
+                        <ul class="bxslider">
+                            <li>
+                                <div class="features-box col-4 feat-scalable">
+                                    <div class="icon-main">
+                                        <i class="icon-dividends"></i>
+                                    </div>
+                                    <h4>Dividends</h4>
+                                    <div class="line"></div>
+                                    <p>Right now many other yearn finance protocols have one issue: 
+										THE TOKEN HAS NO INHERENT VALUE! Tokens from other yearn forks are only used for governance which is nice, 
+										but the majority of token holders may not even take part in governance decisions. 
+										This is why yfCyclic gives value to the token holders not just through governance, 
+										but also through <u>DIVIDENDS!</u> Because yfCyclic is cyclical in nature, it can reward all 
+										who participate in its ecosystem. Farmers are incredibly important to yearn ecosystems, but that doesnt mean 
+										they should be the only ones who are rewarded for participating. If a farmer participates in stable coin vaults as 
+										well as holds the tokens they earned, the combined dividends and stable coin APY will mean a hefty ROI week after week.
+									</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="features-box col-4 feat-flexible">
+                                    <div class="icon-main">
+                                        <i class="icon-cyclical"></i>
+                                    </div>
+                                    <h4>Cyclical</h4>
+                                    <div class="line"></div>
+                                    <p>Other yearn finance forks currently struggle to find the right 
+										balance between yield returned, yield locked, and value for the token 
+										holder. Many of them simply ignore token value altogether! When the APY 
+										of stable coin vaults is dependent on token value, this is a huge oversight 
+										and cuts out potential for everyone participating in the ecosystem. yfCyclic 
+										fixes this with a weekly cycling profit structure. Right now there are three 
+										possible cycles the vaults can be in: <mark class="gold">Gold</mark> (for the farmers), 
+										<mark class="green">Green</mark> (for the token holders), and <mark class="purple">Purple</mark> (For permanent Autonomous Money Pile value). 
+										During a <mark class="gold">Gold</mark> vault cycle the goal of the vaults is to accrue as high of TVL as possible. 
+										During a <mark class="green">Green</mark> vault cycle the goal of the vaults is to provide token holders with dividends 
+										they can claim and hopefully deter farmers from selling their hard earned tokens. Last but not least, 
+										the goal of a <mark class="purple">Purple</mark> vault cycle 
+										is to take advantage of a stable ecosystem and collect permanant AMP value. 
+									</p> 
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <div class="features-box col-4 feat-usable">
+                                    <div class="icon-main">
+										<i class="icon-forever"></i>
+									</div>
+									<h4> Forever </h4>
+									<div class="line"></div>
+										<p>Yes, we mean forever. As long as Ethereum is running and stable coins 
+											can be staked somewhere like yearn.finance this protocol will compound and 
+											reward dividends. Even after emissions have ended and the token supply is completely 
+											in the hands of the community it will still reward those who hold the token. 
+											Dividends can sit in the contract forever and act like a yearly pay check or be 
+											collected weekly to pay for your daily coffee, its up to the user to claim their 
+											dividends and all it takes is one simple transaction. Because the Autonomous Money 
+											Pile is owned by the contract and guided by community governance the money held in 
+											the contract remains decentralized and compounding, forever. In addition, because of the 
+											modular setup of the yfCyclic vaults, governance decisons are easily implemented. 
+										</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+					<!--mobile mode-->
+                    <div class="hidden-xs">
+						<div class="banner-title hidden-xs">
+                    		<h2>How does yfCyclic work?</h2>
+               			</div>
+                        <div class="features-box mp col-4 feat-scalable">
+
+							<div class="icon-main">
+                                <i class="icon-dividends"></i>
+                            </div>
+                            <h4>Dividends</h4>
+							<div class="line"></div>
+								<p>Right now many other yearn finance protocols have one issue: 
+									THE TOKEN HAS NO INHERENT VALUE! Tokens from other yearn forks are only used for governance which is nice, 
+									but the majority of token holders may not even take part in governance decisions. 
+									This is why yfCyclic gives value to the token holders not just through governance, 
+									but also through <u>DIVIDENDS!</u> Because yfCyclic is cyclical in nature, it can reward all 
+									who participate in its ecosystem. Farmers are incredibly important to yearn ecosystems, but that doesnt mean 
+									they should be the only ones who are rewarded for participating. If a farmer participates in stable coin vaults as 
+									well as holds the tokens they earned, the combined dividends and stable coin APY will mean a hefty ROI week after week.
+								</p>
+							</div>
+                        <div class="features-box mp col-4 feat-flexible">
+                            <div class="icon-main">
+                                <i class="icon-cyclical"></i>
+                            </div>
+                            <h4>Cyclical</h4>
+                            <div class="line"></div>
+								<p>Other yearn finance forks currently struggle to find the right 
+								balance between yield returned, yield locked, and value for the token 
+								holder. Many of them simply ignore token value altogether! When the APY 
+								of stable coin vaults is dependent on token value, this is a huge oversight 
+								and cuts out potential for everyone participating in the ecosystem. yfCyclic 
+								fixes this with a weekly cycling profit structure. Right now there are three 
+								possible cycles the vaults can be in: <mark class="gold">Gold</mark> (for the farmers), 
+								<mark class="green">Green</mark> (for the token holders), and <mark class="purple">Purple</mark> (For permanent Autonomous Money Pile value). 
+								During a <mark class="gold">Gold</mark> vault cycle the goal of the vaults is to accrue as high of TVL as possible. 
+								During a <mark class="green">Green</mark> vault cycle the goal of the vaults is to provide token holders with dividends 
+								they can claim and hopefully deter farmers from selling their hard earned tokens. Last but not least, 
+								the goal of a <mark class="purple">Purple</mark> vault cycle 
+								is to take advantage of a stable ecosystem and collect permanant AMP value. </p> 
+                        </div>
+                        <div class="features-box mp col-4 feat-usable">
+                            <div class="icon-main">
+                                <i class="icon-forever"></i>
+                            </div>
+                            <h4> Forever </h4>
+                            <div class="line"></div>
+                           	<p>Yes, we mean forever. As long as Ethereum is running and stable coins 
+								can be staked somewhere like yearn.finance this protocol will compound and 
+								reward dividends. Even after emissions have ended and the token supply is completely 
+								in the hands of the community it will still reward those who hold the token. 
+								Dividends can sit in the contract forever and act like a yearly pay check or be 
+								collected weekly to pay for your daily coffee, its up to the user to claim their 
+								dividends and all it takes is one simple transaction. Because the Autonomous Money 
+								Pile is owned by the contract and guided by community governance the money held in 
+								the contract remains decentralized and compounding, forever. In addition, because of the 
+								modular setup of the yfCyclic vaults, governance decisons are easily implemented. 
+							</p>
+                        </div>
+                    </div>
+                </div>
+				<!--cta link to pdfhost for whitepaper-->
+				<div class="feat-more-info">
+					<a class="cta" href="https://pdfhost.io/v/rRZWkr2yP_YFCYCLICWHITEPAPER_V1pdf.pdf" target="_blank">Whitepaper</a>
+				</div>
+            </div>
+        </div>
+    </div>
+    <!--FAQ and future token details-->
+    <div id="token-details" class="token-main">
+        <div class="container">
+            <div class="token-content">
+                    <div class="faq-main">
+						<div class="faq-main-content" style="padding-top: 0px;">
+							<div class="container">
+								<div class="faq-header text-center">
+								<img src="images/FAQ.png"  alt="FAQ">
+								</div>
+								<button class="expandable">Is this safe to invest in?</button>
+								<div class="panel">
+								  <p>A: We want to say yes, but the answer is: Absolutely NOT. The only value incentive the token has is governance and representing a share of dividends. It is 100% vital that you do not invest into the protocol with more than you can afford to lose. The cyclic nature of this project will likely cause measurable swings in the market from speculators and emission collectors. It is strongly urged that you take out your initial if you decide to gamble on this token and make some profit. You have been warned. </p>
+								</div>
+								<button class="expandable">Are the vaults safe to participate in?</button>
+								<div class="panel">
+								  <p>A: Our goal is to make the upcoming vaults as safe and easy to use as possible, but there is always the chance that a bug could be found, and often with solidity, bugs mean loss of funds.</p>
+								</div>
+								<button class="expandable">Why would I choose yfCyclic over other yearn forks?</button>
+								<div class="panel">
+								  <p>A: While we can't guarentee we will always have the highest apy, we have taken ideas from some of the brightest and most active members in the decentralized finance community to try and deliver balance to every person that participates in this ecosystem. Our dividend reward vault is designed to increase demand of the $CYCL token, which in turn could lead to an apy on the stable coin vaults that is quite impressive! However, this is only speculation and some surface level math. The problem with most of the current yf forks is that they give nothing to the token holder, and the apy they have on their vaults is directly tied to a token that has NO value. yfCyclic is trying to remedy that by giving people a reason to hold onto their tokens once they have bought or farmed them. </p>
+								</div>
+								<button class="expandable">How do I buy this?</button>
+								<div class="panel">
+								  <p>A: To participate in the presale simply send some Ethereum to a <a href="https://metamask.io/">Metamask Wallet</a> and then head over to the bounce presale link at the top of the page. There you can exchange ETH for CYCL and take part in our presale. These instructions will be updated for <a href="https://uniswap.org/">Uniswap</a> once the uniswap listing is live and liquidity tokens have been locked via Unicrypt.</p>
+								</div>
+								<button class="expandable">Will the team reveal their identity?</button>
+								<div class="panel">
+								  <p>A: For now, we have no intention of revealing ourselves to the public, but once the protocol is further along and a strong community has been established we plan to give more info about ouselves.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+              </div>
+    	</div>
+	</div>
+</div>
+<!--scripts-->
+<script src="js/background.js"></script>
+<script src="js/collapsable.js"></script>	
+</body>
+</html>
