@@ -1129,7 +1129,7 @@ mark.purple {
 		height: auto;
 	}
 	.features-main {
-		background: url("../images/value_proportion_mobile.png") center center no-repeat;
+		background: url("../images/valueMobile.png") center center no-repeat;
 		background-size: cover;
 		margin-top: -40px;
 	}
