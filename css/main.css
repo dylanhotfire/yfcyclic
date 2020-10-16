@@ -1087,6 +1087,8 @@ mark.purple {
 
 .visible-xs {
 	display: none !important;
+	display: block;
+    margin: 0 auto;
 }
 
 
