@@ -205,9 +205,9 @@ canvas {
 
 .mainLogo {
     padding: 40px;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
     image-rendering: auto;
 	z-index: -2;
 }
